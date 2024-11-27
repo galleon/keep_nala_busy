@@ -33,19 +33,13 @@ Follow these steps to install and run the project:
 2. **Create a Virtual Environment**:
    Use `uv` (a tool to bootstrap and manage Python virtual environments) to create a virtual environment for the project:
    ```bash
-   uv .
+   uv sync
    ```
 
-3. **Install Dependencies**:
-   Inside the virtual environment, install the required Python packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Run the Project**:
+3.  **Run the Project**:
    Launch the interactive playground for your cat:
    ```bash
-   python main.py
+   uv run python nala.py
    ```
 
 ---
