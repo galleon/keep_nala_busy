@@ -36,7 +36,7 @@ Follow these steps to install and run the project:
    uv sync
    ```
 
-3.  **Run the Project**:
+3. **Run the Project**:
    Launch the interactive playground for your cat:
    ```bash
    uv run python nala.py
