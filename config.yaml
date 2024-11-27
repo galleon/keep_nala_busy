@@ -1,0 +1,12 @@
+window:
+  width: 800          # Width of the game window (adjust as needed)
+  height: 600         # Height of the game window (adjust as needed)
+
+resources:
+  mouse_image: "assets/mouse.png"  # Path to the mouse image file
+
+movement:
+  speed: 5           # Speed of the mouse movement (adjust as needed)
+
+performance:
+  frame_rate: 50     # Frame rate of the game (adjust for performance)
